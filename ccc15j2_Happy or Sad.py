@@ -1,10 +1,10 @@
-emotion = str(input())
+line= str(input())
 
-if happy < 1 and sad < 1:
+if line .count(':-)') == 0 or line .count(':-(') == 0:
     print('none')
-elif happy == sad:
+elif line.count(':-)') == line .count(':-('):
     print('unsure')
-elif happy > sad:
+elif line.count(':-)') > line .count(':-('):
     print('happy')
 else:
     print('sad')
