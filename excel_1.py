@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 엑셀 파일 경로를 지정
-file_path = 'C:/Users/khk/Desktop/일자리 창출 확인서.xlsx'  # 경로 수정
+file_path = 'C:/Users/khk/바탕화면/일자리 창출 확인서_1.xlsx'  # 경로 수정
 
 # 엑셀 파일 읽기
 df = pd.read_excel(file_path)
