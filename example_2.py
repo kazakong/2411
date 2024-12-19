@@ -19,3 +19,15 @@ def kwargs_func(**kwargs):
 
 kwargs_func(name1='Kim', name2='Park', name3='Lee')
 print(kwargs_func)
+
+
+def kwargs_func(**kwargs):
+    for k,n in kwargs.items():
+        print(k,v)
+
+def example_mul(arg1, arg2, *args, **kwargs):
+    print(arg1,arg2, args, kwargs)
+
+example_mul(10,20)
+    
+
